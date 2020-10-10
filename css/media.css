@@ -1,11 +1,13 @@
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+
 	/*header start*/
 	.menu ul li a{
 		padding: 0 0 !important;
 		text-align: right;
 	}
 	/*header end*/
+
 	/*slider start*/
 	.slider {
 		padding-bottom: 60px;
@@ -37,6 +39,7 @@
 		height: 13px;
 	}
 	/*slider end*/
+
 	/*features start*/
 	.features {
 		padding-top: 50px;
@@ -152,19 +155,11 @@
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 
 
-	menu ul li a {
-		
-		padding: 0 0 !important;
-		text-align: right;
-	}
+	
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
-	menu ul li a {
-		
-		padding: 0 0 !important;
-		text-align: right;
-	}
+	
 }
