@@ -15,23 +15,17 @@ header{
 	padding: 20px 0;
 }
 
-.logo{
-
-
-}
-.menu{
-
-
-}
+.logo{}
+.menu{}
 .menu ul{}
 .menu ul li{}
 .menu ul li a{
 	
 	font-size: 22px;
-    font-weight: 700;
-    color: #010101 !important;
-    padding: 0 45px !important;
-    transition: .3s;
+	font-weight: 700;
+	color: #010101 !important;
+	padding: 0 45px !important;
+	transition: .3s;
 
 
 }
@@ -51,52 +45,51 @@ header{
 	padding-bottom: 100px;
 }
 .slider_content{
- margin-top: 65px;
+	margin-top: 65px;
 }
 .slider_content h1{
- font-weight: 700;
- font-size: 32px;
-color:#010101; 
+	font-weight: 700;
+	font-size: 32px;
+	color:#010101; 
 }
 .slider_content h2{
-  font-weight: 400;
-  font-size: 20px;
-  color: #313841;
-  letter-spacing: 1px;
-  word-spacing: 2px;
-  margin: 20px 0;
+	font-weight: 400;
+	font-size: 20px;
+	color: #313841;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin: 20px 0;
 }
 .slider_content p{
- color: #555555;
- word-spacing: 1px;
- line-height: 20px;
- margin-bottom: 35px;
+	color: #555555;
+	word-spacing: 1px;
+	line-height: 20px;
+	margin-bottom: 35px;
 }
 .slider_icon{
 	font-size:42px;
 	color: #010101; 
 }
 .slider_icon li{
-  margin-right: 30px !important;
+	margin-right: 30px !important;
 }
 .slider_img{}
 .cid{
-   bottom: -90px
+	bottom: -90px
 }
 
 .cid li {
-   
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    margin-top: 50px;
-  	background-color: white;
-    
-}
 
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin-top: 50px;
+	background-color: white;
+
+}
 .cid .active {
-    opacity: 1;
-    background-color:white;
+	opacity: 1;
+	background-color:white;
 }
 
 /*slider end*/
@@ -147,7 +140,6 @@ color:#010101;
 
 
 /*contact start*/
-
 .contact{
 	padding-top: 80px;
 	padding-bottom: 100px;
@@ -198,13 +190,21 @@ color:#010101;
   
     background-color: white;
 }
-.social_ico i{
-   font-size: 42px;
-   color: #fcdb00;
-   margin:0 12px;
+
+/*social icon*/
+.social-icon{}
+.social-icon ul{}
+.social-icon ul li {
+    background-color: #fcdb00;
+    width: 40px;
+    height: 42px;
+    border-radius: 18%;
+    margin: 0 16px;
 }
-
-
+.social-icon ul li a{
+	color: #010101;
+	font-size: 30px;
+}
 
 /*contact  end*/
 
@@ -223,3 +223,4 @@ footer{
 .f_1 p a{
 	color: #ffffff !important;
 }
+/*footer end*/
